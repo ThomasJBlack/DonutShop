@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Donut Shop</title>
-    <script src="./donuts.js"></script>
-</head>
-<body>
-    
-</body>
+    <script type="module" src="./donuts.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleDonut.css" />
+  </head>
+  <body>
+    <header><h1>Online Donut Shop Interface</h1></header>
+    <div>
+      <h1>Please select option</h1>
+    </div>
+    <ul>
+      <ul class="nested">
+        <li><button id="newShop">Create a new Shop</button></li>
+        <li><button id="print">Inventory / Prices / Count</button></li>
+        <li><button id="revenue">Revenue</button></li>
+        <li><button id="newDonut">Create new Donut</button></li>
+      </ul>
+      <ul class="nested">
+        <li><button id="addDonuts">Add Donuts</button></li>
+        <li><button id="placeOrder">Place Order</button></li>
+        <li><button id="editPrices">Change Price</button></li>
+        <li><button id="refund">Need a refund?</button></li>
+      </ul>
+    </ul>
+  </body>
 </html>
